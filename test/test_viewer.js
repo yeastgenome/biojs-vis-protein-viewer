@@ -18,13 +18,13 @@ chai.expect();
 chai.should();
 
 // requires your main app (specified in index.js)
-var viewer = require('../');
+var ProteinViewer = require('../');
 
 describe('biojs-vis-protein-viewer module', function(){
-  describe('#hello()', function(){
+  describe('#draw()', function(){
     it('should return a hello', function(){
 
-      assert.equal(viewer.hello('biojs'), ("hello biojs"));
+      assert.equal(ProteinViewer.hello('biojs'), ("hello biojs"));
       
       // alternative styles
       viewer.hello('biojs').should.equal("hello biojs");
