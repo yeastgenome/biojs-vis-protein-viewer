@@ -21,13 +21,13 @@ chai.should();
 var ProteinViewer = require('../');
 
 describe('biojs-vis-protein-viewer module', function(){
-  describe('#draw()', function(){
-    it('should return a hello', function(){
+  describe('#init()', function(){
+    it('should be able to be initialized with data', function(){
+   	  var pv = new ProteinViewer({
 
-      assert.equal(ProteinViewer.hello('biojs'), ("hello biojs"));
-      
-      // alternative styles
-      viewer.hello('biojs').should.equal("hello biojs");
+   	  });
+   	  console.log(pv)
+      // assert.equal(ProteinViewer.hello('biojs'), ("hello biojs"));
     });
   });
 });
