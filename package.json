@@ -55,5 +55,5 @@
     "snippets": ["examples"],
     "first": "simple"
    }, 
-  "keywords": ["biojs","protein","d3","biojs"]
+  "keywords": ["biojs","protein","d3"]
 }
