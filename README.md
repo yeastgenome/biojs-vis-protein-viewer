@@ -1,7 +1,6 @@
 # biojs-vis-protein-viewer
 
 [![NPM version](http://img.shields.io/npm/v/biojs-vis-protein-viewer.svg)](https://www.npmjs.org/package/biojs-vis-protein-viewer) 
-[![Build Status](https://secure.travis-ci.org/yeastgenome/biojs-vis-protein-viewer.png?branch=master)](http://travis-ci.org/yeastgenome/biojs-vis-protein-viewer) 
 
 > Displays protein domains
 
