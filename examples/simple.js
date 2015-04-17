@@ -52,7 +52,7 @@ var exampleLocusData = {
 };
 
 var pv = new ProteinViewer({
-	el: rootDiv, data: exampleData,
+	el: document.getElementById("j-main"),
 	data: exampleData,
 	locusData: exampleLocusData
 });

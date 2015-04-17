@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-protein-viewer",
   "description": "Displays protein domains",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/yeastgenome/biojs-vis-protein-viewer",
   "author": {
     "name": "Travis Sheppard",
@@ -26,12 +26,10 @@
 		"test": "mocha",
 		"build": "mkdirp build && browserify -r ./:biojs-vis-protein-viewer -o build/viewer.js",
 		"build-browser": "npm run build",
-		"install": "npm run build && npm run css",
+		"install": "npm run build",
 		"watch": "watchify -r ./:biojs-vis-protein-viewer -v -o build/viewer.js",
-		"w": "prunner \"npm run sniper\" \"npm run watch\" \"npm run watch-css\"",
-		"sniper": "sniper .",
-		"css": "parcelify ./ -c build/bundle.css",
-		"watch-css": "parcelify -w ./ -c build/bundle.css --loglevel verbose"
+		"w": "prunner \"npm run sniper\" \"npm run watch\"",
+		"sniper": "sniper ."
   },
   "dependencies": {
     "sgd_visualization": "^0.0.1",
@@ -51,9 +49,9 @@
   }, 
   "sniper": {
     "js": [ "/build/viewer.js"],
-    "css": ["/build/bundle.css"], 
+    "css": ["/css/main.css"], 
     "snippets": ["examples"],
-    "first": "simple"
+    "first": "simple.js"
    }, 
   "keywords": ["biojs","protein","d3"]
 }
