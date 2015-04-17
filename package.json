@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-protein-viewer",
   "description": "Displays protein domains",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/yeastgenome/biojs-vis-protein-viewer",
   "author": {
     "name": "Travis Sheppard",
@@ -51,7 +51,7 @@
     "js": [ "/build/viewer.js"],
     "css": ["/css/main.css"], 
     "snippets": ["examples"],
-    "first": "simple.js"
+    "first": "simple"
    }, 
   "keywords": ["biojs","protein","d3"]
 }
