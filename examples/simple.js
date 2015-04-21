@@ -56,3 +56,5 @@ var pv = new ProteinViewer({
 	data: exampleData,
 	locusData: exampleLocusData
 });
+
+pv.render();
